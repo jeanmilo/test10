@@ -37,7 +37,7 @@ export default function Contact({ textEnter, textLeave }) {
           </div>
             <p className="text-[var(--text-secondary)] mb-8">
               Whether you have a question or just want to say hi, 
-              I'll do my best to get back to you!
+              I&apos;ll do my best to get back to you!
             </p>
 
             <div className="space-y-4">

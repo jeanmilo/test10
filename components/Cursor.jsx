@@ -15,7 +15,7 @@ export default function Cursor() {
   const springY = useSpring(cursorY, springConfig)
   
   // Safe size transformation with fallbacks
-  const baseSize = 8
+  const baseSize = 15
   const hoverSize = 30
   const size = useSpring(isHovering ? hoverSize : baseSize, {
     stiffness: 500,
@@ -53,7 +53,7 @@ export default function Cursor() {
         el?.removeEventListener('mouseleave', handleMouseLeave)
       })
     }
-  }, [cursorX, cursorY, isHovering])
+  }, [cursorX, cursorY, size, isHovering])
 
 
   return (

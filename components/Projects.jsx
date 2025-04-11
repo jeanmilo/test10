@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { FiGithub, FiExternalLink } from 'react-icons/fi'
+import Image from 'next/image'
 
 const projects = [
   {
@@ -46,7 +47,7 @@ export default function Projects() {
               className="bg-secondary rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
             >
               <div className="h-48 bg-gray-300 overflow-hidden">
-                <img
+                <Image
                   src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover"

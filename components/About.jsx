@@ -29,15 +29,15 @@ export default function About({ textEnter, textLeave }) {
                 <span className='bg-[var(--secondary)]/50 font-bold rounded text-[var(--text)]'>Claudia Yamamoto</span> {' '}
                 (they/them) is a programmer based in New York City. 
                 They are in their final year at {' '}
-                <span className="text-accent">CUNY's Hunter College</span>, {' '}
+                <span className="text-accent">CUNY&apos;s Hunter College</span>, {' '}
                 majoring in Computer Science with a minor in Mathematics. 
-                They're passionate about accessibility in tech, food science, and human-created projects. 
+                They&apos;re passionate about accessibility in tech, food science, and human-created projects. 
               </p>
               <br></br>
               <p>
                 Claudia currently works at {' '}
                 <span className="text-accent">theCoderSchool</span>, and {' '}
-                <span className="text-accent">l'École</span>.
+                <span className="text-accent">l&apos;École</span>.
                 They are also working in conjunction with {' '}
                 <span className="text-accent">IEEE SIGHT UFF</span> {' '} to build computer
                 science curriculums for kids in underserved neighborhoods of Rio de Janeiro.   

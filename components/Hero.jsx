@@ -66,7 +66,7 @@ const Hero = React.memo(function Hero({ textEnter, textLeave }) {
             style={{ fontFamily: '"ClashDisplayVariable", "ClashDisplay"' }}
             > 
             
-            Hi, I'm 
+            Hi, I&apos;m 
             
             <span className="text-accent">
               {useTypewriterEffect(
