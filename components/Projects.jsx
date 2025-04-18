@@ -17,7 +17,7 @@ const projects = [
     tags: ['React.js', 'Tailwind CSS'],
     github: '#',
     live: '#',
-    image: '/images/project2.jpg',
+    image: '/images/project3.jpg',
   },
   {
     title: 'My Curriculums',
