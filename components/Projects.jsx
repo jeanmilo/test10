@@ -5,7 +5,7 @@ import Image from 'next/image'
 const projects = [
   {
     title: 'Code Learning Platform',
-    description: 'Smth smth smth',
+    description: 'Working on a free platform for kids (and anyone else) to learn how to code. It\'s still in early development, and is my latest personal project.',
     tags: ['React', 'Tailwind CSS', 'Node.js', 'MySQL'],
     github: '#',
     live: '#',
@@ -13,10 +13,17 @@ const projects = [
   },
   {
     title: 'Guitar Web App',
-    description: 'An all-in-one web app for guitarists.',
+    description: 'Inspired by my own needs/wants, I built an all-in-one web app for guitarists. It includes a metronome, customizable guitar tuner, and a chord library.',
     tags: ['React.js', 'Tailwind CSS'],
     github: '#',
     live: '#',
+    image: '/images/project2.jpg',
+  },
+  {
+    title: 'My Curriculums',
+    description: 'A free online collection of coding curriculums I designed. They are designed to be fun and engaging, while also teaching students the fundamentals of coding.',
+    tags: ['Scratch', 'Python', 'HTML', 'CSS', 'JavaScript'],
+    live: 'https://claudias.online/cresources',
     image: '/images/project2.jpg',
   },
 ]
