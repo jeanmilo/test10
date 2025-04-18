@@ -1,5 +1,6 @@
 import "./globals.css";
 import { ThemeProvider } from '@/components/ThemeProvider'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function RootLayout({ children }) {
   return (
