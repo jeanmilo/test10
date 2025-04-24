@@ -74,7 +74,7 @@ export default function About({ textEnter, textLeave }) {
 
         <br></br><br></br>
         <div className="flex flex-col items-center mb-7">
-          <h2 className="text-xl font-bold text-text">Dia's Tech Stack</h2>
+          <h2 className="text-xl font-bold text-text">Dia&apos;s Tech Stack</h2>
         </div>
 
         <ul className="grid grid-cols-3 gap-5 mt-8 text-center text-xs sm:text-sm md:text-md items-center">
