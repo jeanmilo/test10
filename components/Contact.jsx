@@ -55,13 +55,13 @@ export default function Contact({ textEnter, textLeave }) {
                 <FiFeather className="mr-3" size={20} />
                 check out my blog
               </a>
-              <a 
-                href="https://claudias.online/"
+              {/* <a 
+                href="/resume.pdf"
                 className="flex items-center text-[var(--text)] hover:text-[var(--accent)] transition-colors"
               >
                 <FiBook className="mr-3" size={20} />
                 view my resume here
-              </a>
+              </a> */}
             </div>
 
             <div onMouseEnter = {textEnter} onMouseLeave={textLeave} className="inline-flex space-x-4 mt-8">

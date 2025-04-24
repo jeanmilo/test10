@@ -1,6 +1,7 @@
 import "./globals.css";
 import { ThemeProvider } from '@/components/ThemeProvider'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 export default function RootLayout({ children }) {
   return (
@@ -17,6 +18,8 @@ export default function RootLayout({ children }) {
       <body>
         <ThemeProvider>
           {children}
+          <Analytics />
+          <SpeedInsights />
         </ThemeProvider>
       </body>
     </html>

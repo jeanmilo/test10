@@ -784,9 +784,7 @@ function About({ textEnter, textLeave }) {
                                                 lineNumber: 47,
                                                 columnNumber: 17
                                             }, this),
-                                            " ",
-                                            ' ',
-                                            " to build computer science curriculums for kids in underserved neighborhoods of Rio de Janeiro, and lead seminars on the importance of accessibility in tech."
+                                            ", leading seminars on the importance of accessibility in tech, as well as helping build computer science curriculums for kids in underserved neighborhoods of Rio de Janeiro."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/About.jsx",
@@ -1073,25 +1071,6 @@ function Contact({ textEnter, textLeave }) {
                                     }, void 0, true, {
                                         fileName: "[project]/components/Contact.jsx",
                                         lineNumber: 51,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "https://claudias.online/",
-                                        className: "flex items-center text-[var(--text)] hover:text-[var(--accent)] transition-colors",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FiBook"], {
-                                                className: "mr-3",
-                                                size: 20
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Contact.jsx",
-                                                lineNumber: 62,
-                                                columnNumber: 17
-                                            }, this),
-                                            "view my resume here"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Contact.jsx",
-                                        lineNumber: 58,
                                         columnNumber: 15
                                     }, this)
                                 ]

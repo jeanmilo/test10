@@ -9,6 +9,7 @@ import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
 import Cursor from '@/components/Cursor'
 import { useTheme } from '@/components/ThemeProvider'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   const { theme, toggleTheme } = useTheme()
