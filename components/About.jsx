@@ -36,11 +36,17 @@ export default function About({ textEnter, textLeave }) {
               <br></br>
               <p>
                 Claudia currently works at {' '}
-                <span className="text-accent">theCoderSchool</span>, and {' '}
-                <span className="text-accent">l&apos;École</span>.
-                They are also working in conjunction with {' '}
+                <span className="text-accent">theCoderSchool</span> and {' '}
+                <span className="text-accent">l&apos;École</span>, teaching computer science principles 
+                to young learners. Claudia also currently volunteers as a section leader for{" "}
+                <span className="text-accent">Stanford University's Code in Place</span>.
+                </p>
+                <br></br>
+                <p>
+                Their passion for tech education led them to work with {' '}
                 <span className="text-accent">IEEE SIGHT UFF</span> {' '} to build computer
-                science curriculums for kids in underserved neighborhoods of Rio de Janeiro.   
+                science curriculums for kids in underserved neighborhoods of Rio de Janeiro, 
+                and lead seminars on the importance of accessibility in tech.
               </p>
             </div>
           </motion.div>
@@ -66,8 +72,12 @@ export default function About({ textEnter, textLeave }) {
           </motion.div>
         </div>
 
-        <br></br>
-        <ul className="grid grid-cols-3 gap-5 mt-8 ml-3 mr-4 text-center text-xs sm:text-sm md:text-md items-center">
+        <br></br><br></br>
+        <div className="flex flex-col items-center mb-7">
+          <h2 className="text-xl font-bold text-text">Dia's Tech Stack</h2>
+        </div>
+
+        <ul className="grid grid-cols-3 gap-5 mt-8 text-center text-xs sm:text-sm md:text-md items-center">
               {[
                 'HTML',
                 'CSS',
@@ -80,7 +90,7 @@ export default function About({ textEnter, textLeave }) {
                 'Tailwind',
               ].map((tech, i) => (
                 <li key={i} className="flex justify-center items-center text-center m-auto">
-                  <span className="w-2 h-2 bg-accent rounded-full"></span>
+                  {/* <span className="w-2 h-2 bg-accent rounded-full">__</span> */}
                   <span className="text-[var(--accent)]">{tech}</span>
                 </li>
               ))}

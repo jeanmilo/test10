@@ -8,14 +8,14 @@ const projects = [
     description: 'Working on a free platform for kids (and anyone else) to learn how to code. It\'s still in early development, and is my latest personal project.',
     tags: ['React', 'Tailwind CSS', 'Node.js', 'MySQL'],
     github: 'https://github.com/jeanmilo/coder-diaries/',
-    image: '/images/project1.jpg',
+    image: '/images/meme.png',
   },
   {
     title: 'Guitar Web App',
     description: 'Inspired by my own needs/wants, I built an all-in-one web app for guitarists. It includes a metronome, customizable guitar tuner, and a chord library.',
     tags: ['React.js', 'Tailwind CSS'],
     github: 'https://github.com/jeanmilo/guitar-and-me',
-    image: '/images/project2.jpg',
+    image: '/images/costume2.svg',
   },
   {
     title: 'My Curriculums',
@@ -23,7 +23,7 @@ const projects = [
     tags: ['Scratch', 'Python', 'HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/jeanmilo/jeanmilo.github.io',
     live: 'https://claudias.online/cresources',
-    image: '/images/project3.jpg',
+    image: '/images/costume4.svg',
   },
 ]
 
@@ -56,6 +56,8 @@ export default function Projects() {
                 <Image
                   src={project.image}
                   alt={project.title}
+                  width={500}
+                  height={300}
                   className="w-full h-full object-cover"
                 />
               </div>
