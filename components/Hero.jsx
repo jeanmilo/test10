@@ -49,7 +49,7 @@ const rightChildVariants = {
 const Hero = React.memo(function Hero({ textEnter, textLeave }) {
     return (
       // bg-[url(http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRYTDd0TpMoqQGNma3HkFSDpt_3h3h7SiJLBehqMn_riUfoCAuf72OGp_BHQ8y6DpyWfzL6NiPJpLBWwDOcu84)] bg-cover bg-center bg-no-repeat
-      <section id="home" className="min-h-screen flex items-center">
+      <section id="home" className="min-h-screen flex items-center justify-center">
         <motion.div
           initial="hidden"
           animate="visible"

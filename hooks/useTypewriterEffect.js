@@ -27,7 +27,7 @@ export default function useTypewriterEffect(textArray) {
         }
       };
   
-      timeoutId = setTimeout(handleTyping, isDeleting ? 100 : 150);
+      timeoutId = setTimeout(handleTyping, isDeleting ? 90 : 70);
   
       return () => clearTimeout(timeoutId);
     }, [typedText, isDeleting, currentIndex, textArray]);
