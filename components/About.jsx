@@ -39,14 +39,14 @@ export default function About({ textEnter, textLeave }) {
                 <span className="text-accent">theCoderSchool</span> and {' '}
                 <span className="text-accent">l&apos;École</span>, teaching computer science principles 
                 to young learners. Claudia also currently volunteers as a section leader for{" "}
-                <span className="text-accent">Stanford University's Code in Place</span>.
+                <span className="text-accent">Stanford University&apos;s Code in Place</span>.
                 </p>
                 <br></br>
                 <p>
                 Their passion for tech education led them to work with {' '}
-                <span className="text-accent">IEEE SIGHT UFF</span> {' '} to build computer
-                science curriculums for kids in underserved neighborhoods of Rio de Janeiro, 
-                and lead seminars on the importance of accessibility in tech.
+                <span className="text-accent">IEEE SIGHT UFF</span>, leading seminars on the 
+                importance of accessibility in tech, as well as helping build computer
+                science curriculums for kids in underserved neighborhoods of Rio de Janeiro.
               </p>
             </div>
           </motion.div>
